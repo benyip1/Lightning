@@ -6,7 +6,7 @@ int y2 = 0;
 void setup(){
   noLoop();
   size(600,600);
-  background(0, 0, 0, 99);
+  background(0, 0, 0);
 }
 
 void draw(){
