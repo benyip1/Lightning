@@ -11,7 +11,7 @@ void setup(){
 
 void draw(){
   fill(0, 0, 0, 99);
-  rect(0, 0, 600, 600);
+  rect(-100, -100, 800, 800);
   while(y2 < 590){
     x2 = x1 + (int)((Math.random() - 0.5) * 15);
     y2 = y1 + (int)(Math.random() * 10);
